@@ -13,7 +13,6 @@ public class Leetcode20200520 {
                 }
             }
         }
-        System.out.println(Arrays.toString(nums));
         int count = 1;
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != nums[i - 1]) {
@@ -26,11 +25,6 @@ public class Leetcode20200520 {
         return -1;
     }
 
-    public static void main(String[] args) {
-        //[3,2,3,1,2,4,5,5,6]
-        //4
-        System.out.println(findKthLargest(new int[]{3,2,3,1,2,4,5,5,6}, 4));
-    }
 }
 
 
